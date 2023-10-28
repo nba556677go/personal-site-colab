@@ -15,9 +15,9 @@ const courgette = Courgette({
   weight: "400"
 })
 
-const name = 'Caleb J. Wang'
+const name = 'Bing-Shiun (Bing) Han'
 const occupation = 'CS Ph.D.' 
-const company = 'Northwestern University' 
+const company = 'Stony Brook University' 
 
 export default function Page() {
     return (
