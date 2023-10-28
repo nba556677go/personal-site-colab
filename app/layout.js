@@ -49,7 +49,7 @@ export default function RootLayout({ children }) {
               <header className="flex items-center justify-between py-10">
                 <div className="flex items-center justify-between"> 
                   <div className="flex items-center justify-between">
-                    <Link href='/' className={`hvr-bounce-to-top text-4xl font-extrabold text-gray-700 dark:text-gray-300 hover:text-white-900 dark:hover:text-gray-700 transition-colors duration-300 ${inconsolata.className}`}> ~/C. </Link> 
+                    <Link href='/' className={`hvr-bounce-to-top text-4xl font-extrabold text-gray-700 dark:text-gray-300 hover:text-white-900 dark:hover:text-gray-700 transition-colors duration-300 ${inconsolata.className}`}> ~/B.S. </Link> 
                   </div>
                 </div>
 
