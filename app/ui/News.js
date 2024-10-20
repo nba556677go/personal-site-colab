@@ -12,7 +12,12 @@ export default function News() {
           <div className="... basis-3/4 text-left align-middle">
             {' '}
             Our work on predicting GPU interference under DL workload colocation is appearing in{' '}
-            {<Link href="https://acmsocc.org/2024">SoCC'24</Link>}. Read the paper here!{' '}
+            {<Link href="https://acmsocc.org/2024">SoCC'24</Link>}. {' '}
+            <Link 
+              href="/static/publications/preprint/KACE_preprint.pdf" 
+              className="font-bold text-gray-700 dark:text-gray-300 hvr-underline-from-center">
+              Read the paper here!
+            </Link>
           </div>
         </div>
 
