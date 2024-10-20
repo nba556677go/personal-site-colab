@@ -31,7 +31,7 @@ export default function Publications() {
 
             <div className="flex flex-row space-x-3 pt-6">
               
-              <a href="preprint/KACE_preprint.pdf" className="button">Preprint</a>
+              <a href="/static/publications/preprint/KACE_preprint.pdf" className="button">Preprint</a>
               <a href="cite-url" className="button">Cite</a>
               <a href="https://github.com/nba556677go/KACE-artifact" className="button">Code</a>
             </div>
