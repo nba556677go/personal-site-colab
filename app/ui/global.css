@@ -211,7 +211,7 @@ input[type='number']::-webkit-outer-spin-button {
 
 .badge {
   padding: 4px 8px;
-  background-color: #ff5722;
+  background-color: rgba(219,39,119,1);
   color: white;
   border-radius: 4px;
 }
