@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className="scroll-smooth">
       <ThemeProvider attribute="class">
         <head>
-          <link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/apple-touch-icon.png" />
+          <link rel="SBU-vert_72icon" sizes="72x72" href="/static/favicons/SBU-vert_72icon.png" />
           <link
             rel="icon"
             type="image/png"
