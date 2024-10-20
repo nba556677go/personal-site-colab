@@ -13,7 +13,7 @@ export default function Publications() {
           Bing-Shiun Han, Tathagata Paul, Zhenhua Liu, Anshul Gandhi
         </p>
         <p><em>In Proceedings of the 2024 ACM Symposium on Cloud Computing (SoCC 2024).</em></p>
-        <p> </p>
+        <p>&nbsp</p>
 
         <div className="publication-links">
           <a href="pdf-url" className="button">PDF</a>
