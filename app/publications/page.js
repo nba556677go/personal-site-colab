@@ -16,7 +16,7 @@ export default function Publications() {
         </div>
 
         <div className="prose max-w-none pt-8 pb-2 dark:prose-dark xl:col-span-2">
-          <div className="publication-entry mb-8">
+          <div className="publication-entry mb-4">
             <span className="text-gray-700 text-xl dark:text-gray-300 transition-colors duration-700 hover:text-orange-500">
               {<Link href="https://acmsocc.org/2024">SoCC'24</Link>}
             </span>
@@ -40,7 +40,7 @@ export default function Publications() {
           </div>
 
           {/* Second Publication Entry */}
-          <div className="publication-entry mb-8">
+          <div className="publication-entry mb-4">
             <span className="text-gray-700 text-xl dark:text-gray-300 transition-colors duration-700 hover:text-orange-500">
               {<Link href="https://www.cs.stonybrook.edu">Stony Brook University</Link>}
             </span>
