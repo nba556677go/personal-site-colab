@@ -54,7 +54,7 @@ export default function Publications() {
               <a href="/static/publications/preprint/RPE.pdf" className="border border-solid border-2 border-pink-600 text-pink-600 px-4 dark:text-pink-600 rounded transition-colors duration-300 hover:bg-pink-600 hover:text-white dark:hover:text-gray-300 no-underline">
                 PDF
               </a>
-              <a href="/static/publications/preprint/GPUreserch_slides.pdf" className="border border-solid border-2 border-pink-600 text-pink-600 px-4 dark:text-pink-600 rounded transition-colors duration-300 hover:bg-pink-600 hover:text-white dark:hover:text-gray-300 no-underline">
+              <a href="/static/publications/preprint/GPUresearch_slides.pdf" className="border border-solid border-2 border-pink-600 text-pink-600 px-4 dark:text-pink-600 rounded transition-colors duration-300 hover:bg-pink-600 hover:text-white dark:hover:text-gray-300 no-underline">
                 Slides
               </a>
             </div>
