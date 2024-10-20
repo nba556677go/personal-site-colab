@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import Link from './Link';
 
 const headerNavLinks = [
@@ -8,37 +7,18 @@ const headerNavLinks = [
 ];
 
 export default function NavBar() {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
   return (
-    <div className="relative">
-      {/* Hamburger Icon for mobile */}
-      <button
-        onClick={toggleMenu}
-        className="block sm:hidden text-gray-700 dark:text-gray-300 focus:outline-none"
+    <div className="flex flex-col sm:flex-row items-center justify-between w-full">
+      {/* Logo or Home Link */}
+      <Link
+        href='/'
+        className="hvr-bounce-to-top text-4xl font-extrabold text-gray-700 dark:text-gray-300 hover:text-white-900 dark:hover:text-gray-700 transition-colors duration-300"
       >
-        <svg
-          className="w-6 h-6"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M4 6h16M4 12h16M4 18h16"
-          ></path>
-        </svg>
-      </button>
+        ~/B.S.H.
+      </Link>
 
-      {/* Navbar Links - visible only on larger screens or when menu is open */}
-      <div className={`sm:flex ${isOpen ? 'block' : 'hidden'} sm:block`}>
+      {/* Navbar Links */}
+      <div className="flex flex-col sm:flex-row items-center mt-4 sm:mt-0">
         {headerNavLinks.map((link) => (
           <Link
             key={link.title}
@@ -52,4 +32,3 @@ export default function NavBar() {
     </div>
   );
 }
-
