@@ -10,16 +10,16 @@ export default function Publications() {
           <a href="your-paper-url">KACE: Kernel-Aware Colocation for Efficient GPU Spatial Sharing</a>
         </h3>
         <p>
-          Bing-Shiun Han, Tathagata Paul, Zhenhua Liu, Anshul Gandhi
+          <br>Bing-Shiun Han</br>, Tathagata Paul, Zhenhua Liu, Anshul Gandhi
         </p>
         <p><em>In Proceedings of the 2024 ACM Symposium on Cloud Computing (SoCC 2024).</em></p>
-        <p>&nbsp</p>
+        <p>&nbsp;</p>
 
-        <div className="publication-links">
-          <a href="pdf-url" className="button">PDF</a>
-          <a href="preprint-url" className="button">Preprint</a>
-          <a href="cite-url" className="button">Cite</a>
-          <a href="https://github.com/nba556677go/KACE-artifact" className="button">Code</a>
+        <div className="flex flex-row space-x-3 pt-6">
+          <a href="pdf-url">PDF</a>
+          <a href="preprint-url">Preprint</a>
+          <a href="cite-url">Cite</a>
+          <a href="https://github.com/nba556677go/KACE-artifact">Code</a>
 
         </div>
       </div>
