@@ -8,32 +8,14 @@ export default function News() {
       </h2>
       <div className="ml-4 grid auto-rows-fr text-lg">
         <div className="h-fill mt-2 mb-2 flex flex-row gap-4">
-          <div className="... basis-1/4 font-bold"> Oct. 2023 </div>
+          <div className="... basis-1/4 font-bold"> Oct. 2024 </div>
           <div className="... basis-3/4 text-left align-middle">
             {' '}
-            Our work on Intercontinental Long-Haul Links is appearing in{' '}
-            {<Link href="https://dl.acm.org/sig/sigmetrics">SIGMETRICS</Link>}. Read the paper here!{' '}
+            Our work on predicing GPU interference under DL workload colocation Links is appearing in{' '}
+            {<Link href="https://acmsocc.org/2024">SoCC'24</Link>}. Read the paper here!{' '}
           </div>
         </div>
 
-        <div className="mt-2 mb-2 flex flex-row gap-4">
-          <div className="... basis-1/4 font-bold"> Sep. 2023 </div>
-          <div className="... basis-3/4 text-left align-middle">
-            {' '}
-            I will be attending{' '}
-            {<Link href="https://conferences.sigcomm.org/sigcomm/2023/">SIGCOMM</Link>} this year.
-            Feel free to say hi!{' '}
-          </div>
-        </div>
-
-        <div className="mt-2 mb-2 flex flex-row gap-4">
-          <div className="... basis-1/4 font-bold"> Dec. 2022 </div>
-          <div className="... basis-3/4 text-left align-middle">
-            {' '}
-            Our work on Twitch's CDN mapping appears in{' '}
-            {<Link href="https://dl.acm.org/doi/proceedings/10.1145/3570748">AINTEC</Link>}.
-          </div>
-        </div>
 
         <div className="mt-2 mb-2 flex flex-row gap-4">
           <div className="... basis-1/4 font-bold"> Aug. 2024 </div>

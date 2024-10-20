@@ -61,11 +61,11 @@ export default function Page() {
               <p className="mb-4 p">Hi there, welcome to my personal webpage.</p>
               <p className="mb-4 p">My name is Bing Han, and I am a Ph.D. candidate in Computer Science at 
                 <Link href="https://www.stonybrook.edu/"> Stony Brook University</Link>, where I work under the guidance of Dr. <Link href="https://www3.cs.stonybrook.edu/~anshul/"> Anshul Gandhi</Link> and Dr. <Link href="https://www.cs.stonybrook.edu/people/faculty/ZhenhuaLiu"> Zhenhua Liu</Link>.
-                I received my Bachelor's degree in Electrical Engineering from <Link href="https://www.ntu.edu.tw/english/"> National Taiwan University</Link>, and have industry experience from my internships at Intel and Cathay Financial Holdings.
+                I received my Bachelor's degree in Electrical Engineering from <Link href="https://www.ntu.edu.tw/english/"> National Taiwan University</Link>. I earned industry experience from my internships at Intel and Cathay Financial Holdings, where I served as technical sales and data engineer, respectively.
               </p>
-              <p className="mb-4 p">My research interests lie in GPU performance optimization and machine learning systems. Currently, my work focuses on improving GPU job sharing efficiency and optimizing the Kubernetes scheduler framework for machine learning tasks. I developed predictive models and optimization techniques based on GPU kernel profiles and spatial sharing mechanisms, achieving significant performance improvements.
+              <p className="mb-4 p">My research focuses on GPU performance optimization and machine learning systems, specifically on minimizing resource contention when colocating deep learning tasks on GPUs. I am currently conducting a multi-layer analysis of cloud server compute and memory stacks to identify bottlenecks in compute, memory, and I/O across heterogeneous GPU units at kernel level.
               </p>
-              <p className="mb-4 p">Outside of my research, I enjoy participating in machine learning competitions, where I achieved first place in the AICUP Chinese Medical Dialogue Analysis Competition. In my free time, you can find me tinkering with web development projects, brewing espresso, or immersing myself in <Link href="https://www.youtube.com/watch?v=KBbZNMYVIL0?si=ItX2DTpUf9Rqttcg"> music</Link>.
+              <p className="mb-4 p">Outside of my research, I enjoy watching sci-fi and dark TV series. I'm also currently into pickleball and always up for a game!
               </p>
           </div>
 
