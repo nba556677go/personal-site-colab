@@ -20,7 +20,7 @@ export default function Publications() {
             {<Link href="https://acmsocc.org/2024">SoCC'24</Link>}
             </span>
             <h3 className="text-left text-xl font-bold text-gray-700 transition-colors duration-700 dark:text-gray-300">
-              <a href="your-paper-url" className="hover:text-orange-500">KACE: Kernel-Aware Colocation for Efficient GPU Spatial Sharing</a>
+              <a href="/static/publications/preprint/KACE_preprint.pdf" className="hover:text-orange-500">KACE: Kernel-Aware Colocation for Efficient GPU Spatial Sharing</a>
             </h3>
             <p className="text-gray-700 dark:text-gray-300">
               Bing-Shiun Han, Tathagata Paul, Zhenhua Liu, Anshul Gandhi
