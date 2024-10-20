@@ -31,19 +31,19 @@ export default function Publications() {
 
             <div className="flex flex-row space-x-3 pt-4">
               
-              <a href="/static/publications/preprint/KACE_preprint.pdf" className="border border-solid border-4 border-pink-600 text-pink-600 px-4 dark:text-pink-600 rounded transition-colors duration-300 hover:bg-pink-600 hover:text-white dark:hover:text-gray-300 no-underline">
+              <a href="/static/publications/preprint/KACE_preprint.pdf" className="border border-solid border-2 border-pink-600 text-pink-600 px-4 dark:text-pink-600 rounded transition-colors duration-300 hover:bg-pink-600 hover:text-white dark:hover:text-gray-300 no-underline">
               Preprint
               </a>
-              <a href="cite-url" className="border border-solid border-4 border-pink-600 text-pink-600 px-4 dark:text-pink-600 rounded transition-colors duration-300 hover:bg-pink-600 hover:text-white dark:hover:text-gray-300 no-underline">
+              <a href="cite-url" className="border border-solid border-2 border-pink-600 text-pink-600 px-4 dark:text-pink-600 rounded transition-colors duration-300 hover:bg-pink-600 hover:text-white dark:hover:text-gray-300 no-underline">
               Cite
               </a>
-              <a href="https://github.com/nba556677go/KACE-artifact" className="border border-solid border-4 border-pink-600 text-pink-600 px-4 dark:text-pink-600 rounded transition-colors duration-300 hover:bg-pink-600 hover:text-white dark:hover:text-gray-300 no-underline">
+              <a href="https://github.com/nba556677go/KACE-artifact" className="border border-solid border-2 border-pink-600 text-pink-600 px-4 dark:text-pink-600 rounded transition-colors duration-300 hover:bg-pink-600 hover:text-white dark:hover:text-gray-300 no-underline">
               Code
               </a>
             </div>
 
             <span className="text-gray-700 text-xl   dark:text-gray-300 transition-colors duration-700 hover:text-orange-500">
-                Stony Brook University
+            {<Link href="https://www.cs.stonybrook.edu">Stony Brook University</Link>}
               </span>
             <h3 className="text-left text-xl font-bold text-gray-700 transition-colors duration-700 dark:text-gray-300">
               <a href="/static/publications/preprint/RPE.pdf" className="hover:text-orange-500">Predicting workload colocations under
@@ -58,10 +58,10 @@ export default function Publications() {
 
             <div className="flex flex-row space-x-3 pt-4">
               
-              <a href="/static/publications/preprint/KACE_preprint.pdf" className="border border-solid border-4 border-pink-600 text-pink-600 px-4 dark:text-pink-600 rounded transition-colors duration-300 hover:bg-pink-600 hover:text-white dark:hover:text-gray-300 no-underline">
+              <a href="/static/publications/preprint/KACE_preprint.pdf" className="border border-solid border-2 border-pink-600 text-pink-600 px-4 dark:text-pink-600 rounded transition-colors duration-300 hover:bg-pink-600 hover:text-white dark:hover:text-gray-300 no-underline">
               PDF
               </a> 
-              <a href="/static/publications/preprint/GPUreserch_slides.pdf" className="border border-solid border-4 border-pink-600 text-pink-600 px-4 dark:text-pink-600 rounded transition-colors duration-300 hover:bg-pink-600 hover:text-white dark:hover:text-gray-300 no-underline">
+              <a href="/static/publications/preprint/GPUreserch_slides.pdf" className="border border-solid border-2 border-pink-600 text-pink-600 px-4 dark:text-pink-600 rounded transition-colors duration-300 hover:bg-pink-600 hover:text-white dark:hover:text-gray-300 no-underline">
               Slides
               </a> 
             </div>
