@@ -1,5 +1,5 @@
-import React from 'react'; // Ensure React is imported
-'use client'; // Use this if you are in a client component
+'use client';
+import { usePathname } from 'next/navigation';
 
 export default function Publications() {
   return (
@@ -10,7 +10,7 @@ export default function Publications() {
           <a href="your-paper-url">KACE: Kernel-Aware Colocation for Efficient GPU Spatial Sharing</a>
         </h3>
         <p>
-          Bing-Shiun Han, Tathagata Paul, Zhenhua Liu, Anshul Gandhi
+          Bing-Shiun Han<br />, Tathagata Paul, Zhenhua Liu, Anshul Gandhi
         </p>
         <p><em>In Proceedings of the 2024 ACM Symposium on Cloud Computing (SoCC 2024).</em></p>
         <p>&nbsp;</p>
