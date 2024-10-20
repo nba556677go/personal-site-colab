@@ -31,9 +31,15 @@ export default function Publications() {
 
             <div className="flex flex-row space-x-3 pt-6">
               
-              <a href="/static/publications/preprint/KACE_preprint.pdf" className="button">Preprint</a>
-              <a href="cite-url" className="button">Cite</a>
-              <a href="https://github.com/nba556677go/KACE-artifact" className="button">Code</a>
+              <a href="/static/publications/preprint/KACE_preprint.pdf" className="border border-solid border-2 border-pink-600 text-pink-600 dark:text-pink-600 font-bold rounded transition-colors duration-300 hover:bg-pink-600 hover:text-white dark:hover:text-gray-300 no-underline hvr-bounce-to-top">
+              Preprint
+              </a>
+              <a href="cite-url" className="border border-solid border-2 border-pink-600 text-pink-600 dark:text-pink-600 font-bold rounded transition-colors duration-300 hover:bg-pink-600 hover:text-white dark:hover:text-gray-300 no-underline hvr-bounce-to-top">
+              Cite
+              </a>
+              <a href="https://github.com/nba556677go/KACE-artifact" className="border border-solid border-2 border-pink-600 text-pink-600 dark:text-pink-600 font-bold rounded transition-colors duration-300 hover:bg-pink-600 hover:text-white dark:hover:text-gray-300 no-underline hvr-bounce-to-top">
+              Code
+              </a>
             </div>
           </div>
         </div>
