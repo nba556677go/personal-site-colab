@@ -17,7 +17,7 @@ export default function Publications() {
         <div className="prose max-w-none pt-8 pb-2 dark:prose-dark xl:col-span-2">
           <div className="publication-entry">
            <span className="badge text-gray-700 dark:text-gray-300 transition-colors duration-700 hover:text-orange-500">
-              SoCC'24
+            {<Link href="https://acmsocc.org/2024">SoCC'24</Link>}
             </span>
             <h3 className="text-left text-xl font-bold text-gray-700 transition-colors duration-700 dark:text-gray-300">
               <a href="your-paper-url" className="hover:text-orange-500">KACE: Kernel-Aware Colocation for Efficient GPU Spatial Sharing</a>
@@ -30,7 +30,7 @@ export default function Publications() {
             </p>
 
             <div className="flex flex-row space-x-3 pt-6">
-              <a href="pdf-url" className="button">PDF</a>
+              
               <a href="preprint-url" className="button">Preprint</a>
               <a href="cite-url" className="button">Cite</a>
               <a href="https://github.com/nba556677go/KACE-artifact" className="button">Code</a>
