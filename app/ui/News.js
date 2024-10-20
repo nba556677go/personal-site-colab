@@ -11,7 +11,7 @@ export default function News() {
           <div className="... basis-1/4 font-bold"> Oct. 2024 </div>
           <div className="... basis-3/4 text-left align-middle">
             {' '}
-            Our work on predicing GPU interference under DL workload colocation Links is appearing in{' '}
+            Our work on predicting GPU interference under DL workload colocation is appearing in{' '}
             {<Link href="https://acmsocc.org/2024">SoCC'24</Link>}. Read the paper here!{' '}
           </div>
         </div>

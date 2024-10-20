@@ -42,7 +42,7 @@ export default function Page() {
                     <a href="mailto:bihhan@cs.stonybrook.edu" target="_blank"> <MdEmail /> </a>
                   </div>
                   <div>
-                    <a href="https://github.com/nba556677" rel="noopener noreferrer" target="_blank"> <TbBrandGithubFilled /> </a>
+                    <a href="https://github.com/nba556677go" rel="noopener noreferrer" target="_blank"> <TbBrandGithubFilled /> </a>
                   </div>
                   <div>
                     <a href="https://www.linkedin.com/in/bing-shiun-han/" rel="noopener noreferrer" target="_blank"> <FaLinkedin /> </a>
