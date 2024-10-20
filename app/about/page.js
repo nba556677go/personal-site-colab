@@ -6,7 +6,7 @@ import NextImage from 'next/image'
 import { IconContext } from "react-icons"
 import { MdEmail } from 'react-icons/md'
 import { FaInstagram, FaLinkedin} from 'react-icons/fa'
-import { TbBrandGithubFilled } from 'react-icons/tb' 
+import { TbBrandGithubFilled, TbFileCv } from 'react-icons/tb' 
 
 import { Courgette } from 'next/font/google'
 
@@ -46,6 +46,9 @@ export default function Page() {
                   </div>
                   <div>
                     <a href="https://www.linkedin.com/in/bing-shiun-han/" rel="noopener noreferrer" target="_blank"> <FaLinkedin /> </a>
+                  </div>
+                  <div>
+                    <a href="/static/cv/resume.pdf" rel="noopener noreferrer" target="_blank"> <TbFileCv /> </a>
                   </div>
                   
                 </IconContext.Provider>
