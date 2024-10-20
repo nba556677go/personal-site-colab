@@ -29,17 +29,38 @@ export default function Publications() {
               To be appear in Proceedings of the 2024 ACM Symposium on Cloud Computing (SoCC 2024).
             </p>
 
-            <div className="flex flex-row space-x-3 pt-6">
+            <div className="flex flex-row space-x-3 pt-4">
               
-              <a href="/static/publications/preprint/KACE_preprint.pdf" className="border border-solid border-2 border-pink-600 text-pink-600 dark:text-pink-600 font-bold rounded transition-colors duration-300 hover:bg-pink-600 hover:text-white dark:hover:text-gray-300 no-underline hvr-bounce-to-top">
+              <a href="/static/publications/preprint/KACE_preprint.pdf" className="border border-solid border-4 border-pink-600 text-pink-600 px-4 dark:text-pink-600 rounded transition-colors duration-300 hover:bg-pink-600 hover:text-white dark:hover:text-gray-300 no-underline">
               Preprint
               </a>
-              <a href="cite-url" className="border border-solid border-2 border-pink-600 text-pink-600 dark:text-pink-600 font-bold rounded transition-colors duration-300 hover:bg-pink-600 hover:text-white dark:hover:text-gray-300 no-underline hvr-bounce-to-top">
+              <a href="cite-url" className="border border-solid border-4 border-pink-600 text-pink-600 px-4 dark:text-pink-600 rounded transition-colors duration-300 hover:bg-pink-600 hover:text-white dark:hover:text-gray-300 no-underline">
               Cite
               </a>
-              <a href="https://github.com/nba556677go/KACE-artifact" className="border border-solid border-2 border-pink-600 text-pink-600 dark:text-pink-600 font-bold rounded transition-colors duration-300 hover:bg-pink-600 hover:text-white dark:hover:text-gray-300 no-underline hvr-bounce-to-top">
+              <a href="https://github.com/nba556677go/KACE-artifact" className="border border-solid border-4 border-pink-600 text-pink-600 px-4 dark:text-pink-600 rounded transition-colors duration-300 hover:bg-pink-600 hover:text-white dark:hover:text-gray-300 no-underline">
               Code
               </a>
+            </div>
+
+            <span className="text-gray-700 text-xl   dark:text-gray-300 transition-colors duration-700 hover:text-orange-500">
+                Stony Brook University
+              </span>
+            <h3 className="text-left text-xl font-bold text-gray-700 transition-colors duration-700 dark:text-gray-300">
+              <a href="/static/publications/preprint/RPE.pdf" className="hover:text-orange-500">Predicting workload colocations under
+              GPU spatial sharing</a>
+            </h3>
+            <p className="text-gray-700 dark:text-gray-300">
+              Bing-Shiun Han
+            </p>
+            <p className="italic text-gray-500 dark:text-gray-400">
+              Research Report
+            </p>
+
+            <div className="flex flex-row space-x-3 pt-4">
+              
+              <a href="/static/publications/preprint/KACE_preprint.pdf" className="border border-solid border-4 border-pink-600 text-pink-600 px-4 dark:text-pink-600 rounded transition-colors duration-300 hover:bg-pink-600 hover:text-white dark:hover:text-gray-300 no-underline">
+              PDF
+              </a> 
             </div>
           </div>
         </div>
