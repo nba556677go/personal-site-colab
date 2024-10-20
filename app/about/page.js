@@ -39,17 +39,15 @@ export default function Page() {
               <div className="flex flex-row space-x-3 pt-6">
                 <IconContext.Provider value={{ className: "social-icon" }}> 
                   <div>
-                    <a href="mailto:caleb.wang@northwestern.edu" target="_blank"> <MdEmail /> </a>
+                    <a href="mailto:bihhan@cs.stonybrook.edu" target="_blank"> <MdEmail /> </a>
                   </div>
                   <div>
-                    <a href="https://github.com/theheokboi" rel="noopener noreferrer" target="_blank"> <TbBrandGithubFilled /> </a>
+                    <a href="https://github.com/nba556677" rel="noopener noreferrer" target="_blank"> <TbBrandGithubFilled /> </a>
                   </div>
                   <div>
-                    <a href="https://www.linkedin.com/in/hyes92121/" rel="noopener noreferrer" target="_blank"> <FaLinkedin /> </a>
+                    <a href="https://www.linkedin.com/in/bing-shiun-han/" rel="noopener noreferrer" target="_blank"> <FaLinkedin /> </a>
                   </div>
-                  <div>
-                    <a href="https://www.instagram.com/the.heok.boi/" rel="noopener noreferrer" target="_blank"> <FaInstagram /> </a>
-                  </div>
+                  
                 </IconContext.Provider>
               </div>
             </div>
@@ -61,20 +59,16 @@ export default function Page() {
             </h2>
             <div className="mb-8 text-lg text-gray-700 transition-colors duration-700 dark:text-gray-300">
               <p className="mb-4 p">Hi there, welcome to my personal webpage.</p>
-              <p className="mb-4 p ">My name is Caleb Wang, I'm a second year Ph.D. student in Computer Science at 
-                <Link href="https://www.northwestern.edu"> Northwestern University</Link>, 
-                where I work with Prof. <Link href="https://users.cs.northwestern.edu/~fabianb/"> Fabián E. Bustamante </Link> as a member in <Link href="https://aqualab.cs.northwestern.edu"> AquaLab</Link>.
-                I received my Bachelor's degree in Electrical Engineering and Master's degree in Communication Engineering, both from <Link href="https://www.ntu.edu.tw/english/"> National Taiwan University</Link>.
-                I worked briefly as a customer engineer at Microsoft, Taiwan before joining Northwestern in 2022.
+              <p className="mb-4 p">My name is Bing Han, and I am a Ph.D. candidate in Computer Science at 
+                <Link href="https://www.stonybrook.edu/"> Stony Brook University</Link>, where I work under the guidance of Dr. <Link href="https://www3.cs.stonybrook.edu/~anshul/"> Anshul Gandhi</Link> and Dr. <Link href="https://www.cs.stonybrook.edu/people/faculty/ZhenhuaLiu"> Zhenhua Liu</Link>.
+                I received my Bachelor's degree in Electrical Engineering from <Link href="https://www.ntu.edu.tw/english/"> National Taiwan University</Link>, and have industry experience from my internships at Intel and Cathay Financial Holdings.
               </p>
-              <p className="mb-4 p">My research interest generally lies in Network Measurements, where I try to understand underlying characteristics of the Internet by measuring 
-                and observing performance of the network. 
-                Currently I am conducting a cross-layer analysis of network level measurements 
-                and the infrastructure beneath to understand Internet consolidation at the physical level.
+              <p className="mb-4 p">My research interests lie in GPU performance optimization and machine learning systems. Currently, my work focuses on improving GPU job sharing efficiency and optimizing the Kubernetes scheduler framework for machine learning tasks. I developed predictive models and optimization techniques based on GPU kernel profiles and spatial sharing mechanisms, achieving significant performance improvements.
               </p>
-              <p className="mb-4 p">During my spare time, you can find me brewing (decent) shots of espresso, banging my head against <Link href="https://www.youtube.com/watch?v=LTyxnUZMA1k"> music</Link>, 
-                or writing unnecessarily complicated Javascript for simple websites like this one.</p>
-            </div>
+              <p className="mb-4 p">Outside of my research, I enjoy participating in machine learning competitions, where I achieved first place in the AICUP Chinese Medical Dialogue Analysis Competition. In my free time, you can find me tinkering with web development projects, brewing espresso, or immersing myself in <Link href="https://www.youtube.com/watch?v=KBbZNMYVIL0?si=ItX2DTpUf9Rqttcg"> music</Link>.
+              </p>
+          </div>
+
             { /* {children} */}
             <News />
           </div>

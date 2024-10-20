@@ -36,10 +36,10 @@ export default function News() {
         </div>
 
         <div className="mt-2 mb-2 flex flex-row gap-4">
-          <div className="... basis-1/4 font-bold"> Sep. 2022 </div>
+          <div className="... basis-1/4 font-bold"> Aug. 2024 </div>
           <div className="... basis-3/4 text-left align-middle">
             {' '}
-            Excited to start my Ph.D. journey at Northwestern University.{' '}
+            Passed my PhD candidancy exam!{' '}
           </div>
         </div>
       </div>
