@@ -53,13 +53,16 @@ export default function Publications() {
               Bing-Shiun Han
             </p>
             <p className="italic text-gray-500 dark:text-gray-400">
-              Research Report
+              Research Report for candidancy exam
             </p>
 
             <div className="flex flex-row space-x-3 pt-4">
               
               <a href="/static/publications/preprint/KACE_preprint.pdf" className="border border-solid border-4 border-pink-600 text-pink-600 px-4 dark:text-pink-600 rounded transition-colors duration-300 hover:bg-pink-600 hover:text-white dark:hover:text-gray-300 no-underline">
               PDF
+              </a> 
+              <a href="/static/publications/preprint/GPUreserch_slides.pdf" className="border border-solid border-4 border-pink-600 text-pink-600 px-4 dark:text-pink-600 rounded transition-colors duration-300 hover:bg-pink-600 hover:text-white dark:hover:text-gray-300 no-underline">
+              Slides
               </a> 
             </div>
           </div>
