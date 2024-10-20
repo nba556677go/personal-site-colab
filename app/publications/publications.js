@@ -1,11 +1,11 @@
+import React from 'react';
 'use client';
-import { usePathname } from 'next/navigation';
-import { Courgette } from 'next/font/google'
 
+import { Courgette } from 'next/font/google';
 const courgette = Courgette({
   subsets: ['latin'],
   weight: "400"
-})
+});
 
 export default function Publications() {
   return (
@@ -17,7 +17,7 @@ export default function Publications() {
 
         <div className="prose max-w-none pt-8 pb-2 dark:prose-dark xl:col-span-2">
           <div className="publication-entry">
-            <span className="badge" style={{ backgroundColor: '#ff5722', padding: '5px 10px', color: 'white', borderRadius: '5px' }}>SoCC '24</span>
+            <span className="badge"><Link href="https://www.stonybrook.edu/"> SoCC '24</Link></span>
             <h3 className="text-left text-xl font-bold text-gray-700 transition-colors duration-700 dark:text-gray-300">
               <a href="your-paper-url" className="hover:text-orange-500">KACE: Kernel-Aware Colocation for Efficient GPU Spatial Sharing</a>
             </h3>
@@ -25,7 +25,7 @@ export default function Publications() {
               Bing-Shiun Han, Tathagata Paul, Zhenhua Liu, Anshul Gandhi
             </p>
             <p className="italic text-gray-500 dark:text-gray-400">
-              In Proceedings of the 2024 ACM Symposium on Cloud Computing (SoCC 2024).
+              To be appear in Proceedings of the 2024 ACM Symposium on Cloud Computing (SoCC 2024).
             </p>
 
             <div className="flex flex-row space-x-3 pt-6">
