@@ -14,11 +14,11 @@ export default function Publications() {
         </p>
         <p><em>In Proceedings of the 2024 ACM Symposium on Cloud Computing (SoCC 2024).</em></p>
         <p> </p>
+
         <div className="publication-links">
           <a href="pdf-url" className="button">PDF</a>
           <a href="preprint-url" className="button">Preprint</a>
           <a href="cite-url" className="button">Cite</a>
-          
           <a href="https://github.com/nba556677go/KACE-artifact" className="button">Code</a>
 
         </div>
