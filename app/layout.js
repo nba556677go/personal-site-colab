@@ -1,7 +1,6 @@
 'use client'
 
 import { Analytics } from '@vercel/analytics/react';
-import { SpeedInsights } from '@vercel/speed-insights/next';
 import './ui/global.css';
 import { ThemeProvider } from 'next-themes'
 import { Inconsolata } from 'next/font/google' 
@@ -62,7 +61,6 @@ export default function RootLayout({ children }) {
 
               <main className="mb-auto">
                 {children}
-                <SpeedInsights />
               </main>
 
               <Footer />
