@@ -11,7 +11,7 @@ const CustomLink = ({ href, ...rest }: CustomLinkProps) => {
   const ClassNameString = [
     'text-primary-600', 
     'hover:text-white-900', 
-    'dark:text-pink-600', 
+    'dark:text-teal-600', 
     'dark:hover:text-gray-300', 
     'no-underline', 
     'transition-colors',
