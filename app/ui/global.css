@@ -63,7 +63,7 @@ input[type='number']::-webkit-outer-spin-button {
   left: 0;
   right: 0;
   bottom: 0;
-  background: theme('colors.pink.600'); 
+  background: theme('colors.teal.500'); 
 
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
@@ -122,7 +122,7 @@ input[type='number']::-webkit-outer-spin-button {
   left: 51%;
   right: 51%;
   bottom: 0;
-  background: theme('colors.pink.600'); 
+  background: theme('colors.teal.500'); 
   height: 4px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
@@ -191,27 +191,5 @@ input[type='number']::-webkit-outer-spin-button {
   no-underline [background-position:0_100%]
   [background-size:100%_0.2em] focus:[background-size:100%_100%]
   hover:[background-size:100%_100%] motion-safe:transition-all
-  motion-safe:duration-300 dark:from-pink-200 dark:to-pink-600;
-}
-
-.pub_button {
-  padding: 8px 12px;
-  margin-right: 10px;
-  margin-top: 10px;
-  background-color: rgba(219,39,119,1);
-  color: white;
-  text-decoration: none;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-
-.pub_button:hover {
-  background-color: rgba(219,39,119,1);
-}
-
-.badge {
-  padding: 4px 8px;
-  background-color: rgba(219,39,119,1);
-  color: white;
-  border-radius: 4px;
+  motion-safe:duration-300 dark:from-teal-200 dark:to-teal-500;
 }

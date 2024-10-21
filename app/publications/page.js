@@ -27,13 +27,13 @@ export default function Publications() {
             <p className="italic text-gray-500 dark:text-gray-400">To be appear in Proceedings of the 2024 ACM Symposium on Cloud Computing (SoCC 2024).</p>
 
             <div className="flex flex-row space-x-3 pt-4">
-              <a href="/static/publications/preprint/KACE_preprint.pdf" className="border border-solid border-2 border-teal-500 text-pink-600 px-4 dark:text-pink-600 rounded transition-colors duration-300 hover:bg-teal-500 hover:text-white dark:hover:text-gray-300 no-underline">
+              <a href="/static/publications/preprint/KACE_preprint.pdf" className="border border-solid border-2 border-teal-500 text-teal-500 px-4 dark:text-teal-500 rounded transition-colors duration-300 hover:bg-teal-500 hover:text-white dark:hover:text-gray-300 no-underline">
                 Preprint
               </a>
-              <a href="cite-url" className="border border-solid border-2 border-teal-500 text-pink-600 px-4 dark:text-teal-500 rounded transition-colors duration-300 hover:bg-teal-500 hover:text-white dark:hover:text-gray-300 no-underline">
+              <a href="cite-url" className="border border-solid border-2 border-teal-500 text-teal-500 px-4 dark:text-teal-500 rounded transition-colors duration-300 hover:bg-teal-500 hover:text-white dark:hover:text-gray-300 no-underline">
                 Cite
               </a>
-              <a href="https://github.com/nba556677go/KACE-artifact" className="border border-solid border-2 border-teal-500 text-pink-600 px-4 dark:text-teal-500 rounded transition-colors duration-300 hover:bg-teal-500 hover:text-white dark:hover:text-gray-300 no-underline">
+              <a href="https://github.com/nba556677go/KACE-artifact" className="border border-solid border-2 border-teal-500 text-teal-500 px-4 dark:text-teal-500 rounded transition-colors duration-300 hover:bg-teal-500 hover:text-white dark:hover:text-gray-300 no-underline">
                 Code
               </a>
             </div>
@@ -51,10 +51,10 @@ export default function Publications() {
             <p className="italic text-gray-500 dark:text-gray-400">Research Report for candidacy exam</p>
 
             <div className="flex flex-row space-x-3 pt-4">
-              <a href="/static/publications/preprint/RPE.pdf" className="border border-solid border-2 border-teal-500 text-pink-600 px-4 dark:text-teal-500 rounded transition-colors duration-300 hover:bg-teal-500 hover:text-white dark:hover:text-gray-300 no-underline">
+              <a href="/static/publications/preprint/RPE.pdf" className="border border-solid border-2 border-teal-500 text-teal-500 px-4 dark:text-teal-500 rounded transition-colors duration-300 hover:bg-teal-500 hover:text-white dark:hover:text-gray-300 no-underline">
                 PDF
               </a>
-              <a href="/static/publications/preprint/GPUresearch_slides.pdf" className="border border-solid border-2 border-teal-500 text-pink-600 px-4 dark:text-teal-500 rounded transition-colors duration-300 hover:bg-teal-500 hover:text-white dark:hover:text-gray-300 no-underline">
+              <a href="/static/publications/preprint/GPUresearch_slides.pdf" className="border border-solid border-2 border-teal-500 text-teal-500 px-4 dark:text-teal-500 rounded transition-colors duration-300 hover:bg-teal-500 hover:text-white dark:hover:text-gray-300 no-underline">
                 Slides
               </a>
             </div>
