@@ -37,7 +37,7 @@ export default function Footer() {
           <div>{` • `}</div>
           <div>
             Special thanks to 
-            <a href="https://calebwang.info/"> Caleb Jay Wang</a> for his awesome template
+            <a href="https://calebwang.info/"> Caleb Jay Wang</a> for the awesome template
           </div>
           <div>{` • `}</div>
           <div className="hover:text-primary-600 dark:hover:text-pink-600 group-hover:max-w-full hover:duration-700">{getGreetingMessage()}</div>
