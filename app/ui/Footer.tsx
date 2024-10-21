@@ -39,9 +39,7 @@ export default function Footer() {
           </div>
           
           
-          <div>{`${siteMetadata.author}`}{`© ${new Date().getFullYear()}`}{` • `}{getGreetingMessage()}</div>
-         
-          <div className="hover:text-primary-600 dark:hover:text-pink-600 group-hover:max-w-full hover:duration-700">{getGreetingMessage()}</div>
+          <div>{`${siteMetadata.author}`}{` © ${new Date().getFullYear()}`}{` • `}{getGreetingMessage()}</div>
         </div>
       </div>
     </footer>
