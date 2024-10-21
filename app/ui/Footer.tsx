@@ -31,7 +31,7 @@ export default function Footer() {
   return (
     <footer>
       <div className="mt-16 mb-8 flex flex-col items-center">
-        <div className="mb-2 flex space-x-2 text-sm text-gray-700 dark:text-gray-300 transition-all duration-700">
+        <div className="mb-2 flex flex-col items-center text-sm text-gray-700 dark:text-gray-300 transition-all duration-700">
           <div>
             Special thanks to 
             <a href="https://calebwang.info/"> Caleb Jay Wang</a> for the awesome template.
@@ -39,10 +39,8 @@ export default function Footer() {
           </div>
           
           
-          <div>{`${siteMetadata.author}`}</div>
-          <div>{`© ${new Date().getFullYear()}`}</div>
-          
-          <div>{` • `}</div>
+          <div>{`${siteMetadata.author}`}{`© ${new Date().getFullYear()}`}{` • `}{getGreetingMessage()}</div>
+         
           <div className="hover:text-primary-600 dark:hover:text-pink-600 group-hover:max-w-full hover:duration-700">{getGreetingMessage()}</div>
         </div>
       </div>
