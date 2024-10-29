@@ -26,7 +26,7 @@ export default function News() {
           <div className="... basis-1/4 font-bold"> Aug. 2024 </div>
           <div className="... basis-3/4 text-left align-middle">
             {' '}
-            Passed my PhD candidancy exam!{' '}
+            Passed my PhD candidacy exam!{' '}
           </div>
         </div>
       </div>
