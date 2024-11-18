@@ -21,7 +21,7 @@ export default function Publications() {
               {<Link href="https://acmsocc.org/2024">SoCC'24</Link>}
             </span>
             <h3 className="text-left text-xl font-bold text-gray-700 transition-colors duration-700 dark:text-gray-300">
-              <a href="/static/publications/preprint/KACE_preprint.pdf" className="hover:text-orange-500">KACE: Kernel-Aware Colocation for Efficient GPU Spatial Sharing</a>
+              <a href="https://dl.acm.org/doi/10.1145/3698038.3698555" className="hover:text-orange-500">KACE: Kernel-Aware Colocation for Efficient GPU Spatial Sharing</a>
             </h3>
             <p className="text-gray-700 dark:text-gray-300">Bing-Shiun Han, Tathagata Paul, Zhenhua Liu, Anshul Gandhi</p>
             <p className="italic text-gray-500 dark:text-gray-400">To be appear in Proceedings of the 2024 ACM Symposium on Cloud Computing (SoCC 2024).</p>
