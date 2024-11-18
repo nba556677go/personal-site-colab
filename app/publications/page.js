@@ -30,9 +30,9 @@ export default function Publications() {
               <a href="/static/publications/preprint/KACE_preprint.pdf" className="border border-solid border-2 border-teal-500 text-teal-500 px-4 dark:text-teal-500 rounded transition-colors duration-300 hover:bg-teal-500 hover:text-white dark:hover:text-gray-300 no-underline">
                 Preprint
               </a>
-              <a href="cite-url" className="border border-solid border-2 border-teal-500 text-teal-500 px-4 dark:text-teal-500 rounded transition-colors duration-300 hover:bg-teal-500 hover:text-white dark:hover:text-gray-300 no-underline">
+              {/*<a href="cite-url" className="border border-solid border-2 border-teal-500 text-teal-500 px-4 dark:text-teal-500 rounded transition-colors duration-300 hover:bg-teal-500 hover:text-white dark:hover:text-gray-300 no-underline">
                 Cite
-              </a>
+              </a>*/}
               <a href="https://github.com/nba556677go/KACE-artifact" className="border border-solid border-2 border-teal-500 text-teal-500 px-4 dark:text-teal-500 rounded transition-colors duration-300 hover:bg-teal-500 hover:text-white dark:hover:text-gray-300 no-underline">
                 Code
               </a>
