@@ -66,7 +66,7 @@ export default function Page() {
                 <Link href="https://www.stonybrook.edu/"> Stony Brook University</Link>, where I work under the guidance of Dr. <Link href="https://www3.cs.stonybrook.edu/~anshul/"> Anshul Gandhi</Link> and Dr. <Link href="https://www.cs.stonybrook.edu/people/faculty/ZhenhuaLiu"> Zhenhua Liu</Link>.
                 I received my Bachelor's degree in Electrical Engineering from <Link href="https://www.ntu.edu.tw/english/"> National Taiwan University</Link>. I earned industry experience from my internships at Intel and Cathay Financial Holdings, where I served as technical sales and data engineer, respectively.
               </p>
-              <p className="mb-4 p">My research focuses on GPU performance optimization and machine learning systems, specifically on minimizing resource contention when colocating deep learning tasks on GPUs. I am currently conducting a multi-layer analysis of cloud server compute and memory stacks to identify bottlenecks in compute, memory, and I/O across heterogeneous GPU units at kernel level.
+              <p className="mb-4 p">My research focuses on GPU performance optimization and machine learning systems, specifically on minimizing resource contention when colocating deep learning tasks on GPUs. I am currently conducting a multi-layer analysis of cloud server compute and memory stacks to identify bottlenecks in compute, memory, and I/O across heterogeneous GPU units at GPU kernel level.
               </p>
               <p className="mb-4 p">Outside of my research, I enjoy watching sci-fi and dark TV series. I'm also currently into pickleball and always up for a game!
               </p>
