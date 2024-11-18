@@ -24,7 +24,7 @@ export default function Publications() {
               <a href="https://dl.acm.org/doi/10.1145/3698038.3698555" className="hover:text-orange-500">KACE: Kernel-Aware Colocation for Efficient GPU Spatial Sharing</a>
             </h3>
             <p className="text-gray-700 dark:text-gray-300">Bing-Shiun Han, Tathagata Paul, Zhenhua Liu, Anshul Gandhi</p>
-            <p className="italic text-gray-500 dark:text-gray-400">Proceedings of the 2024 ACM Symposium on Cloud Computing (SoCC 2024).</p>
+            <p className="italic text-gray-500 dark:text-gray-400">Proceedings of the 2024 ACM Symposium on Cloud Computing (SoCC 2024)</p>
 
             <div className="flex flex-row space-x-3 pt-4">
               <a href="/static/publications/preprint/KACE_preprint.pdf" className="border border-solid border-2 border-teal-500 text-teal-500 px-4 dark:text-teal-500 rounded transition-colors duration-300 hover:bg-teal-500 hover:text-white dark:hover:text-gray-300 no-underline">
