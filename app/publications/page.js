@@ -28,13 +28,16 @@ export default function Publications() {
 
             <div className="flex flex-row space-x-3 pt-4">
               <a href="/static/publications/preprint/KACE_preprint.pdf" className="border border-solid border-2 border-teal-500 text-teal-500 px-4 dark:text-teal-500 rounded transition-colors duration-300 hover:bg-teal-500 hover:text-white dark:hover:text-gray-300 no-underline">
-                Preprint
+                PDF
               </a>
               {/*<a href="cite-url" className="border border-solid border-2 border-teal-500 text-teal-500 px-4 dark:text-teal-500 rounded transition-colors duration-300 hover:bg-teal-500 hover:text-white dark:hover:text-gray-300 no-underline">
                 Cite
               </a>*/}
               <a href="https://github.com/nba556677go/KACE-artifact" className="border border-solid border-2 border-teal-500 text-teal-500 px-4 dark:text-teal-500 rounded transition-colors duration-300 hover:bg-teal-500 hover:text-white dark:hover:text-gray-300 no-underline">
                 Code
+              </a>
+              <a href="/static/publications/slides/kace_socc_pres.pdf" className="border border-solid border-2 border-teal-500 text-teal-500 px-4 dark:text-teal-500 rounded transition-colors duration-300 hover:bg-teal-500 hover:text-white dark:hover:text-gray-300 no-underline">
+                Slides
               </a>
             </div>
           </div>
