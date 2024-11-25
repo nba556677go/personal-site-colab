@@ -7,6 +7,8 @@ import { IconContext } from "react-icons"
 import { MdEmail } from 'react-icons/md'
 import { FaInstagram, FaLinkedin} from 'react-icons/fa'
 import { TbBrandGithubFilled, TbFileCv } from 'react-icons/tb' 
+import { SiGooglescholar } from 'react-icons/si'
+
 
 import { Courgette } from 'next/font/google'
 
@@ -49,6 +51,13 @@ export default function Page() {
                   </div>
                   <div>
                     <a href="/static/cv/resume.pdf" rel="noopener noreferrer" target="_blank"> <TbFileCv /> </a>
+                  </div>
+                  <div>
+                    <a
+                      href="https://scholar.google.com/citations?user=kMy9hCUAAAAJ"
+                      rel="noopener noreferrer"
+                      target="_blank"> <SiGooglescholar /> 
+                    </a>
                   </div>
                   
                 </IconContext.Provider>
