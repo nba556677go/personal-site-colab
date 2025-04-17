@@ -24,7 +24,7 @@ export default function Publications() {
             <h3 className="text-left text-xl font-bold text-gray-700 transition-colors duration-700 dark:text-gray-300">
               <a href="/static/publications/preprint/AICrossroads.pdf" className="hover:text-orange-500">Energy-efficient GPU SM allocation</a>
             </h3>
-            <p className="text-gray-700 dark:text-gray-300">Bing-Shiun Han, Tathagata Paul, Zhenhua Liu, Anshul Gandhi</p>
+            <p className="text-gray-700 dark:text-gray-300"><b>Bing-Shiun Han</b>, Kunaal Parekh, Wan-Chu Lin, Tathagata Paul, Anshul Gandhi, Zhenhua Liu</p>
             <p className="italic text-gray-500 dark:text-gray-400">AI Crossroads: Systems, Energy, and Applications, ACM SIGMETRICS 2025 Workshop</p>
 
             <div className="flex flex-row space-x-3 pt-4">
@@ -41,7 +41,7 @@ export default function Publications() {
             <h3 className="text-left text-xl font-bold text-gray-700 transition-colors duration-700 dark:text-gray-300">
               <a href="https://dl.acm.org/doi/10.1145/3698038.3698555" className="hover:text-orange-500">KACE: Kernel-Aware Colocation for Efficient GPU Spatial Sharing</a>
             </h3>
-            <p className="text-gray-700 dark:text-gray-300">Bing-Shiun Han, Tathagata Paul, Zhenhua Liu, Anshul Gandhi</p>
+            <p className="text-gray-700 dark:text-gray-300"><b>Bing-Shiun Han</b>, Tathagata Paul, Zhenhua Liu, Anshul Gandhi</p>
             <p className="italic text-gray-500 dark:text-gray-400">Proceedings of the 2024 ACM Symposium on Cloud Computing (SoCC 2024)</p>
 
             <div className="flex flex-row space-x-3 pt-4">
@@ -68,7 +68,7 @@ export default function Publications() {
             <h3 className="text-left text-xl font-bold text-gray-700 transition-colors duration-700 dark:text-gray-300">
               <a href="/static/publications/preprint/RPE.pdf" className="hover:text-orange-500">Predicting workload colocations under GPU spatial sharing</a>
             </h3>
-            <p className="text-gray-700 dark:text-gray-300">Bing-Shiun Han</p>
+            <p className="text-gray-700 dark:text-gray-300"><b>Bing-Shiun Han</b></p>
             <p className="italic text-gray-500 dark:text-gray-400">Research Report for candidacy exam</p>
 
             <div className="flex flex-row space-x-3 pt-4">
