@@ -7,13 +7,17 @@ export default function News() {
         Recent news
       </h2>
       <div className="ml-4 grid auto-rows-fr text-lg">
-
         <div className="h-fill mt-2 mb-2 flex flex-row gap-4">
           <div className="... basis-1/4 font-bold"> Apr. 2025 </div>
           <div className="... basis-3/4 text-left align-middle">
             {' '}
             Our work on optimizing GPU SM allocation is appearing in{' '}
-            {<Link href="https://www.sigmetrics.org/sigmetrics2025/index.html">AICrossroad'25(SIGMETRICS'25 workshop)</Link>}! {' '}
+            {<Link href="https://www.sigmetrics.org/sigmetrics2025/index.html">AICrossroads (SIGMETRICS'25 workshop)</Link>}! {' '}
+            <Link 
+              href="/publications" 
+              className="font-bold text-gray-700 dark:text-gray-300 hvr-underline-from-center">
+              Read the paper here!
+            </Link>
           </div>
         </div>
 
