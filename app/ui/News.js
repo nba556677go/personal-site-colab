@@ -12,7 +12,7 @@ export default function News() {
           <div className="... basis-3/4 text-left align-middle">
             {' '}
             Our work on optimizing GPU SM allocation is appearing in{' '}
-            {<Link href="https://www.sigmetrics.org/sigmetrics2025/index.html">AICrossroads (SIGMETRICS'25 workshop)</Link>}! {' '}
+            {<Link href="https://www.sigmetrics.org/sigmetrics2025/index.html">AICrossroads Workshop at SIGMETRICS'25</Link>}! {' '}
             <Link 
               href="/publications" 
               className="font-bold text-gray-700 dark:text-gray-300 hvr-underline-from-center">
