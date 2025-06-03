@@ -6,6 +6,13 @@ export default function News() {
       <h2 className="text-left text-2xl mb-4 font-bold text-gray-700 transition-colors duration-700 dark:text-gray-300">
         Recent news
       </h2>
+      <div className="mt-2 mb-2 flex flex-row gap-4">
+          <div className="... basis-1/4 font-bold"> May. 2025 </div>
+          <div className="... basis-3/4 text-left align-middle">
+            {' '}
+            Starting my Applied Scientist internship at Amazon Search!{' '}
+          </div>
+      </div>
       <div className="ml-4 grid auto-rows-fr text-lg">
         <div className="h-fill mt-2 mb-2 flex flex-row gap-4">
           <div className="... basis-1/4 font-bold"> Apr. 2025 </div>
