@@ -13,7 +13,7 @@ export default function News() {
             <div className="... basis-1/4 font-bold"> May. 2025 </div>
             <div className="... basis-3/4 text-left align-middle">
               {' '}
-              Started my Applied Scientist internship at Amazon Search!{' '}
+              Started my Applied Scientist internship at Amazon Search!
             </div>
         </div>
 
