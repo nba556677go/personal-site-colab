@@ -1,4 +1,4 @@
-import Link from './Link'
+import Link from '@/app/ui/Link'
 
 export default function News() {
   return (
