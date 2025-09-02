@@ -50,7 +50,7 @@ export default function Page() {
                     <a href="https://www.linkedin.com/in/bing-shiun-han/" rel="noopener noreferrer" target="_blank"> <FaLinkedin /> </a>
                   </div>
                   <div>
-                    <a href="/static/cv/resume.pdf" rel="noopener noreferrer" target="_blank"> <TbFileCv /> </a>
+                    <a href="/static/cv/resume_2027.pdf" rel="noopener noreferrer" target="_blank"> <TbFileCv /> </a>
                   </div>
                   <div>
                     <a
