@@ -1,10 +1,18 @@
 'use client';
 import Link from '@/app/ui/Link'
-import { Courgette } from 'next/font/google';
+//import { Courgette } from 'next/font/google';
 
-const courgette = Courgette({
-  subsets: ['latin'],
-  weight: "400"
+// const courgette = Courgette({
+//   subsets: ['latin'],
+//   weight: "400"
+// });
+
+import localFont from 'next/font/local';
+
+const courgette = localFont({
+  src: '../fonts/Courgette-Regular.woff2',
+  display: 'swap',
+  variable: '--font-courgette' // optional CSS var if you want to use it in global styles
 });
 
 export default function Publications() {
