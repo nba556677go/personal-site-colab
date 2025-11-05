@@ -22,14 +22,14 @@ export default function Publications() {
               {<Link href="https://ai-crossroads.github.io/">AICrossroads'25</Link>}
             </span>
             <h3 className="text-left text-xl font-bold text-gray-700 transition-colors duration-700 dark:text-gray-300">
-              <a href="/static/publications/preprint/AICrossroads.pdf" className="hover:text-orange-500">Energy-efficient GPU SM allocation</a>
+              <a href="https://dl.acm.org/doi/10.1145/3764944.3764952" className="hover:text-orange-500">Energy-efficient GPU SM allocation</a>
             </h3>
             <p className="text-gray-700 dark:text-gray-300"><b>Bing-Shiun Han</b>, Kunaal Parekh, Wan-Chu Lin, Tathagata Paul, Anshul Gandhi, Zhenhua Liu</p>
             <p className="italic text-gray-500 dark:text-gray-400">AI Crossroads: Systems, Energy, and Applications, ACM SIGMETRICS 2025 Workshop</p>
 
             <div className="flex flex-row space-x-3 pt-4">
-              <a href="/static/publications/preprint/AICrossroads.pdf" className="border border-solid border-2 border-teal-500 text-teal-500 px-4 dark:text-teal-500 rounded transition-colors duration-300 hover:bg-teal-500 hover:text-white dark:hover:text-gray-300 no-underline">
-                Preprint
+              <a href="/static/publications/preprint/aicrossroads25_gpusm.pdf" className="border border-solid border-2 border-teal-500 text-teal-500 px-4 dark:text-teal-500 rounded transition-colors duration-300 hover:bg-teal-500 hover:text-white dark:hover:text-gray-300 no-underline">
+                PDF
               </a>
             </div>
           </div>
