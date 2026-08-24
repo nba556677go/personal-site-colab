@@ -2,7 +2,7 @@ import Link from './Link'
 
 export default function News() {
   return (
-    <div className="text-gray-700 transition-colors duration-700 dark:text-gray-300">
+    <section id="news" className="scroll-mt-8 text-gray-700 transition-colors duration-700 dark:text-gray-300">
       <h2 className="text-left text-2xl mb-4 font-bold text-gray-700 transition-colors duration-700 dark:text-gray-300">
         Recent news
       </h2>
@@ -51,7 +51,7 @@ export default function News() {
             Our work on optimizing GPU SM allocation is appearing in{' '}
             {<Link href="https://www.sigmetrics.org/sigmetrics2025/index.html">AICrossroads Workshop at SIGMETRICS'25</Link>}! {' '}
             <Link 
-              href="/publications" 
+              href="/#publications"
               className="font-bold text-gray-700 dark:text-gray-300 hvr-underline-from-center">
               Read the paper here!
             </Link>
@@ -65,7 +65,7 @@ export default function News() {
             Our work on predicting GPU interference under DL workload colocation is appearing in{' '}
             {<Link href="https://acmsocc.org/2024">SoCC'24</Link>}. {' '}
             <Link 
-              href="/publications" 
+              href="/#publications"
               className="font-bold text-gray-700 dark:text-gray-300 hvr-underline-from-center">
               Read the paper here!
             </Link>
@@ -81,6 +81,6 @@ export default function News() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

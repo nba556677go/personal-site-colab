@@ -18,8 +18,7 @@ const inconsolata = Inconsolata({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <ThemeProvider attribute="class">
+    <html lang="en" className="scroll-smooth" suppressHydrationWarning>
         <head>
           <link rel="SBU-vert_72icon" sizes="72x72" href="/static/favicons/SBU-vert_72icon.png" />
           <link
@@ -42,11 +41,11 @@ export default function RootLayout({ children }) {
           <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
         </head>
         <body className="antialiased bg-white dark:bg-gray-700 transition-colors duration-1000">
-          
-          <div className="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0">
-            <div className="flex h-screen flex-col justify-between">
+          <ThemeProvider attribute="class">
+            <div className="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0">
+              <div className="flex min-h-screen flex-col justify-between">
               
-              <header className="flex items-center justify-between py-10">
+              <header className="flex flex-col items-start justify-between gap-5 py-8 sm:flex-row sm:items-center sm:py-10">
                 <div className="flex items-center justify-between"> 
                   <div className="flex items-center justify-between">
                     <Link href='/' className={`hvr-bounce-to-top text-4xl font-extrabold text-gray-700 dark:text-gray-300 hover:text-white-900 dark:hover:text-gray-700 transition-colors duration-300 ${inconsolata.className}`}> ~/B.H. </Link> 
@@ -64,11 +63,11 @@ export default function RootLayout({ children }) {
               </main>
 
               <Footer />
+              </div>
             </div>
-          </div>
-          <Analytics /> 
+            <Analytics />
+          </ThemeProvider>
         </body>
-      </ThemeProvider>
     </html>
   );
 }

@@ -2,23 +2,25 @@
 import Link from './Link'
 
 const headerNavLinks = [
-  { href: '/about', title: 'About' },
-  { href: '/publications', title: 'Publications' },
-  { href: "/static/cv/resume_202608.pdf", title: 'CV' }
+  { href: '/#about', title: 'About' },
+  { href: '/#news', title: 'News' },
+  { href: '/#publications', title: 'Publications' },
+  { href: '/#experience', title: 'Experience' },
+  { href: '/#contact', title: 'Contact' },
 ]
 
 export default function NavBar() {
   return (
-    <div className="hidden sm:block">
+    <nav aria-label="Primary navigation" className="flex flex-wrap items-center justify-end gap-x-3 gap-y-1 text-sm sm:text-base">
       {headerNavLinks.map((link) => (
         <Link
           key={link.title}
           href={link.href}
-          className="ml-2 mr-2 font-bold text-gray-700 dark:text-gray-300 hvr-underline-from-center"
+          className="font-bold text-gray-700 dark:text-gray-300 hvr-underline-from-center"
         >
           {link.title}
         </Link>
       ))}
-    </div>
+    </nav>
   );
 }

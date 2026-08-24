@@ -28,11 +28,12 @@ export default function Page() {
         <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
 
           <div className="flex flex-col items-center pt-8">
-            <NextImage
+              <NextImage
                 className="h-64 w-64"
                 src={"/static/images/headshot.jpg"}
                 width={256}
                 height={256}
+                alt="Bing-Shiun Han"
               />
             <div className="flex flex-col items-center">
               <h3 className={`pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight text-gray-700 dark:text-gray-300 ${courgette.className}`}>{name}</h3>
@@ -41,7 +42,7 @@ export default function Page() {
               <div className="flex flex-row space-x-3 pt-6">
                 <IconContext.Provider value={{ className: "social-icon" }}> 
                   <div>
-                    <a href="mailto:bihhan@cs.stonybrook.edu" target="_blank"> <MdEmail /> </a>
+                    <a href="mailto:bingshiunhan@gmail.com" aria-label="Email Bing-Shiun Han"> <MdEmail /> </a>
                   </div>
                   <div>
                     <a href="https://github.com/nba556677go" rel="noopener noreferrer" target="_blank"> <TbBrandGithubFilled /> </a>
