@@ -26,6 +26,24 @@ export default function Publications() {
         <div className="prose max-w-none pt-8 pb-2 dark:prose-dark xl:col-span-2">
 
           <div className="publication-entry mb-4">
+            <span className="text-gray-700 text-xl dark:text-gray-300">
+              <Link href="https://acmsocc.org/2026/">SoCC'26</Link>{' '}
+              <span className="italic text-gray-500 dark:text-gray-400">(preprint)</span>
+            </span>
+            <h3 className="text-left text-xl font-bold text-gray-700 transition-colors duration-700 dark:text-gray-300">
+              <a href="/static/publications/preprint/socc26_peace.pdf" className="hover:text-orange-500">PEACE: Power and Performance Aware Colocation for Efficient GPU Spatial Partitioning</a>
+            </h3>
+            <p className="text-gray-700 dark:text-gray-300"><b>Bing-Shiun Han</b>, Chaitanya Subhedar, Kunaal Parekh, Wan-Chu Lin, Zhenhua Liu, Anshul Gandhi</p>
+            <p className="italic text-gray-500 dark:text-gray-400">Accepted at the 2026 ACM Symposium on Cloud Computing (SoCC 2026)</p>
+
+            <div className="flex flex-row space-x-3 pt-4">
+              <a href="/static/publications/preprint/socc26_peace.pdf" className="border border-solid border-2 border-teal-500 text-teal-500 px-4 dark:text-teal-500 rounded transition-colors duration-300 hover:bg-teal-500 hover:text-white dark:hover:text-gray-300 no-underline">
+                Preprint
+              </a>
+            </div>
+          </div>
+
+          <div className="publication-entry mb-4">
             <span className="text-gray-700 text-xl dark:text-gray-300 transition-colors duration-700 hover:text-orange-500">
               {<Link href="https://ai-crossroads.github.io/">AICrossroads'25</Link>}
             </span>

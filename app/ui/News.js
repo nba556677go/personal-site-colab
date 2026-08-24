@@ -10,6 +10,32 @@ export default function News() {
       <div className="ml-4 grid auto-rows-fr text-lg">
 
         <div className="mt-2 mb-2 flex flex-row gap-4">
+          <div className="... basis-1/4 font-bold"> May 2026 </div>
+          <div className="... basis-3/4 text-left align-middle">
+            PEACE was accepted at SoCC'26.{' '}
+            <Link
+              href="/static/publications/preprint/socc26_peace.pdf"
+              className="font-bold text-gray-700 dark:text-gray-300 hvr-underline-from-center">
+              Read the preprint here!
+            </Link>
+          </div>
+        </div>
+
+        <div className="mt-2 mb-2 flex flex-row gap-4">
+          <div className="... basis-1/4 font-bold"> May 2026 </div>
+          <div className="... basis-3/4 text-left align-middle">
+            Starting a software engineering internship at Google, building distributed caching for the TPU/GPU stack.
+          </div>
+        </div>
+
+        <div className="mt-2 mb-2 flex flex-row gap-4">
+          <div className="... basis-1/4 font-bold"> Aug. 2025 </div>
+          <div className="... basis-3/4 text-left align-middle">
+            Completed my Amazon internship, where I worked on predicting LLM latency across parallelism configurations.
+          </div>
+        </div>
+
+        <div className="mt-2 mb-2 flex flex-row gap-4">
             <div className="... basis-1/4 font-bold"> May. 2025 </div>
             <div className="... basis-3/4 text-left align-middle">
               {' '}
