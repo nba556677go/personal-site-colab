@@ -1,5 +1,5 @@
 // import siteMetadata from '@/data/siteMetadata'
-import Link from './Link'
+import Link from '@/app/ui/Link'
 
 const headerNavLinks = [
   { href: '/about', title: 'About' },

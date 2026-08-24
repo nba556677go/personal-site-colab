@@ -1,14 +1,14 @@
 'use client'
 
 import { Analytics } from '@vercel/analytics/react';
-import './ui/global.css';
+import '@/app/ui/global.css';
 import { ThemeProvider } from 'next-themes'
 import { Inconsolata } from 'next/font/google' 
 
-import Link from './ui/Link'
-import NavBar from './ui/NavBar'
-import ThemeSwitch from './ui/ThemeSwitch'
-import Footer from './ui/Footer'
+import Link from '@/app/ui/Link'
+import NavBar from '@/app/ui/NavBar'
+import ThemeSwitch from '@/app/ui/ThemeSwitch'
+import Footer from '@/app/ui/Footer'
 
 
 const inconsolata = Inconsolata({
