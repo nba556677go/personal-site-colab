@@ -27,8 +27,7 @@ export default function Publications() {
 
           <div className="publication-entry mb-4">
             <span className="text-gray-700 text-xl dark:text-gray-300">
-              <Link href="https://acmsocc.org/2026/">SoCC'26</Link>{' '}
-              <span className="italic text-gray-500 dark:text-gray-400">(preprint)</span>
+              <Link href="https://acmsocc.org/2026/">SoCC'26</Link>
             </span>
             <h3 className="text-left text-xl font-bold text-gray-700 transition-colors duration-700 dark:text-gray-300">
               <a href="/static/publications/preprint/socc26_peace.pdf" className="hover:text-orange-500">PEACE: Power and Performance Aware Colocation for Efficient GPU Spatial Partitioning</a>

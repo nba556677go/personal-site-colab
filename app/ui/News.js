@@ -12,7 +12,8 @@ export default function News() {
         <div className="mt-2 mb-2 flex flex-row gap-4">
           <div className="... basis-1/4 font-bold"> May 2026 </div>
           <div className="... basis-3/4 text-left align-middle">
-            PEACE was accepted at SoCC'26.{' '}
+            PEACE was accepted at{' '}
+            <Link href="https://acmsocc.org/2026/">SoCC'26</Link>.{' '}
             <Link
               href="/static/publications/preprint/socc26_peace.pdf"
               className="font-bold text-gray-700 dark:text-gray-300 hvr-underline-from-center">
