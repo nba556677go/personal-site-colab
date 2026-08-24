@@ -7,9 +7,9 @@ export default function News() {
         Recent news
       </h2>
       
-      <div className="ml-4 grid auto-rows-fr text-lg">
+      <div className="ml-4 space-y-1 text-lg">
 
-        <div className="mt-2 mb-2 flex flex-row gap-4">
+        <div className="flex flex-row gap-4 py-1">
           <div className="... basis-1/4 font-bold"> May 2026 </div>
           <div className="... basis-3/4 text-left align-middle">
             PEACE was accepted at{' '}
@@ -22,21 +22,21 @@ export default function News() {
           </div>
         </div>
 
-        <div className="mt-2 mb-2 flex flex-row gap-4">
+        <div className="flex flex-row gap-4 py-1">
           <div className="... basis-1/4 font-bold"> May 2026 </div>
           <div className="... basis-3/4 text-left align-middle">
             Starting a software engineering internship at Google, building distributed caching for the TPU/GPU stack.
           </div>
         </div>
 
-        <div className="mt-2 mb-2 flex flex-row gap-4">
+        <div className="flex flex-row gap-4 py-1">
           <div className="... basis-1/4 font-bold"> Aug. 2025 </div>
           <div className="... basis-3/4 text-left align-middle">
             Completed my Amazon internship, where I worked on predicting LLM latency across parallelism configurations.
           </div>
         </div>
 
-        <div className="mt-2 mb-2 flex flex-row gap-4">
+        <div className="flex flex-row gap-4 py-1">
             <div className="... basis-1/4 font-bold"> May. 2025 </div>
             <div className="... basis-3/4 text-left align-middle">
               {' '}
@@ -44,7 +44,7 @@ export default function News() {
             </div>
         </div>
 
-        <div className="h-fill mt-2 mb-2 flex flex-row gap-4">
+        <div className="flex flex-row gap-4 py-1">
           <div className="... basis-1/4 font-bold"> Apr. 2025 </div>
           <div className="... basis-3/4 text-left align-middle">
             {' '}
@@ -58,7 +58,7 @@ export default function News() {
           </div>
         </div>
 
-        <div className="h-fill mt-2 mb-2 flex flex-row gap-4">
+        <div className="flex flex-row gap-4 py-1">
           <div className="... basis-1/4 font-bold"> Oct. 2024 </div>
           <div className="... basis-3/4 text-left align-middle">
             {' '}
@@ -73,7 +73,7 @@ export default function News() {
         </div>
 
 
-        <div className="mt-2 mb-2 flex flex-row gap-4">
+        <div className="flex flex-row gap-4 py-1">
           <div className="... basis-1/4 font-bold"> Aug. 2024 </div>
           <div className="... basis-3/4 text-left align-middle">
             {' '}
