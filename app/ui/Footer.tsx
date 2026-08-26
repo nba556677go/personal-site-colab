@@ -1,4 +1,6 @@
-// import siteMetadata from '@/data/siteMetadata'
+'use client'
+
+import { useEffect, useState } from 'react'
 
 const siteMetadata = {
   author: 'Bing Han', 
@@ -28,6 +30,12 @@ const getGreetingMessage = () => {
 
 
 export default function Footer() {
+  const [footerMessage, setFooterMessage] = useState('')
+
+  useEffect(() => {
+    setFooterMessage(`${siteMetadata.author} © ${new Date().getFullYear()} • ${getGreetingMessage()}`)
+  }, [])
+
   return (
     <footer>
       <div className="mt-16 mb-8 flex flex-col items-center">
@@ -39,7 +47,7 @@ export default function Footer() {
           </div>
           
           
-          <div>{`${siteMetadata.author}`}{` © ${new Date().getFullYear()}`}{` • `}{getGreetingMessage()}</div>
+          <div className="min-h-5">{footerMessage}</div>
         </div>
       </div>
     </footer>
