@@ -1,6 +1,6 @@
 'use client'
 
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from '@vercel/analytics/next';
 import './ui/global.css';
 import { ThemeProvider } from 'next-themes'
 import { Inconsolata } from 'next/font/google' 
